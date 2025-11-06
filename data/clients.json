@@ -1,0 +1,102 @@
+[
+  {
+    "id": "CLT001",
+    "name": "Sarah Johnson",
+    "address": "142 Maple Street, Seattle, WA 98101, USA",
+    "nationality": "American",
+    "accountBalance": 125430.50,
+    "race": "Caucasian",
+    "mobilePhone": "+1-206-555-0142",
+    "email": "sarah.johnson@email.com"
+  },
+  {
+    "id": "CLT002",
+    "name": "Marcus Chen",
+    "address": "88 Victoria Road, Singapore 188037",
+    "nationality": "Singaporean",
+    "accountBalance": 342100.75,
+    "race": "Asian",
+    "mobilePhone": "+65-9123-4567",
+    "email": "marcus.chen@email.com"
+  },
+  {
+    "id": "CLT003",
+    "name": "Fatima Al-Rashid",
+    "address": "23 Palm Tower, Dubai Marina, Dubai, UAE",
+    "nationality": "Emirati",
+    "accountBalance": 892350.00,
+    "race": "Arab",
+    "mobilePhone": "+971-50-234-5678",
+    "email": "fatima.alrashid@email.com"
+  },
+  {
+    "id": "CLT004",
+    "name": "James O'Connor",
+    "address": "15 Trinity College Green, Dublin 2, Ireland",
+    "nationality": "Irish",
+    "accountBalance": 67890.25,
+    "race": "Caucasian",
+    "mobilePhone": "+353-87-123-4567",
+    "email": "james.oconnor@email.com"
+  },
+  {
+    "id": "CLT005",
+    "name": "Priya Patel",
+    "address": "402 MG Road, Bangalore 560001, Karnataka, India",
+    "nationality": "Indian",
+    "accountBalance": 234567.80,
+    "race": "Asian",
+    "mobilePhone": "+91-98765-43210",
+    "email": "priya.patel@email.com"
+  },
+  {
+    "id": "CLT006",
+    "name": "Diego Rodriguez",
+    "address": "Av. Paulista 1578, São Paulo, SP 01310-200, Brazil",
+    "nationality": "Brazilian",
+    "accountBalance": 158920.40,
+    "race": "Hispanic",
+    "mobilePhone": "+55-11-98765-4321",
+    "email": "diego.rodriguez@email.com"
+  },
+  {
+    "id": "CLT007",
+    "name": "Yuki Tanaka",
+    "address": "3-12-5 Shibuya, Tokyo 150-0002, Japan",
+    "nationality": "Japanese",
+    "accountBalance": 456789.60,
+    "race": "Asian",
+    "mobilePhone": "+81-90-1234-5678",
+    "email": "yuki.tanaka@email.com"
+  },
+  {
+    "id": "CLT008",
+    "name": "Amara Okafor",
+    "address": "12 Victoria Island, Lagos 101241, Nigeria",
+    "nationality": "Nigerian",
+    "accountBalance": 98765.30,
+    "race": "Black",
+    "mobilePhone": "+234-803-456-7890",
+    "email": "amara.okafor@email.com"
+  },
+  {
+    "id": "CLT009",
+    "name": "Emma Andersson",
+    "address": "Kungsgatan 45, 111 56 Stockholm, Sweden",
+    "nationality": "Swedish",
+    "accountBalance": 523410.90,
+    "race": "Caucasian",
+    "mobilePhone": "+46-70-123-4567",
+    "email": "emma.andersson@email.com"
+  },
+  {
+    "id": "CLT010",
+    "name": "Ahmed Hassan",
+    "address": "15 Zamalek District, Cairo 11211, Egypt",
+    "nationality": "Egyptian",
+    "accountBalance": 187654.20,
+    "race": "Arab",
+    "mobilePhone": "+20-10-1234-5678",
+    "email": "ahmed.hassan@email.com"
+  }
+]

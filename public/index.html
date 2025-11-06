@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYC Bank - Client Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>KYC Bank - Client Management System</h1>
+            <p class="subtitle">Backend User Dashboard</p>
+        </header>
+
+        <div class="search-section">
+            <h2>Search Clients</h2>
+
+            <div class="search-tabs">
+                <button class="tab-btn active" onclick="switchTab('simple')">Simple Search</button>
+                <button class="tab-btn" onclick="switchTab('advanced')">Advanced Search</button>
+            </div>
+
+            <!-- Simple Search -->
+            <div id="simple-search" class="search-form active">
+                <div class="form-row">
+                    <select id="searchField">
+                        <option value="all">All Fields</option>
+                        <option value="name">Name</option>
+                        <option value="email">Email</option>
+                        <option value="mobilePhone">Mobile Phone</option>
+                        <option value="nationality">Nationality</option>
+                        <option value="id">Client ID</option>
+                    </select>
+                    <input type="text" id="searchQuery" placeholder="Enter search term...">
+                    <button onclick="searchClients()">Search</button>
+                    <button onclick="loadAllClients()" class="secondary">View All</button>
+                </div>
+            </div>
+
+            <!-- Advanced Search -->
+            <div id="advanced-search" class="search-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" id="advName" placeholder="Client name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="text" id="advEmail" placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone:</label>
+                        <input type="text" id="advPhone" placeholder="Phone number">
+                    </div>
+                    <div class="form-group">
+                        <label>Nationality:</label>
+                        <input type="text" id="advNationality" placeholder="Nationality">
+                    </div>
+                    <div class="form-group">
+                        <label>Min Balance:</label>
+                        <input type="number" id="advMinBalance" placeholder="0.00">
+                    </div>
+                    <div class="form-group">
+                        <label>Max Balance:</label>
+                        <input type="number" id="advMaxBalance" placeholder="1000000.00">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button onclick="advancedSearch()">Search</button>
+                    <button onclick="clearAdvancedSearch()" class="secondary">Clear</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-section" id="statsSection">
+            <h3>System Statistics</h3>
+            <div id="statsContent">Loading...</div>
+        </div>
+
+        <div class="results-section">
+            <h2>Search Results <span id="resultCount"></span></h2>
+            <div id="resultsContainer">
+                <p class="placeholder">Use the search above to find client information</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
